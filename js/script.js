@@ -24,13 +24,13 @@ function calkeliling(){
     keliling = 4 * side;
     kside1.innerHTML="K = 4 x "+side;
     kside2.innerHTML="K = "+keliling;
-    kside3.innerHTML="Keliling persegi adalah "+keliling+" cm.";
+    kside3.innerHTML="Keliling persegi adalah "+keliling+" cm";
 }
 function calluas(){
     luas = side * side;
     lside1.innerHTML="L = "+side+" x "+side;
     lside2.innerHTML="L = "+luas;
-    lside3.innerHTML="Luas persegi adalah "+luas+" cm2";
+    lside3.innerHTML="Luas persegi adalah "+luas+" cm²";
 }
 
 calBtn.addEventListener('click', function(){
