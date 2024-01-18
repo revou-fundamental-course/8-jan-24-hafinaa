@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katik Persegi</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Katik <span>Kalkulator Matematik</span></h1>
+    </header>
+    <main>
+        <section id="greeting">
+            <h2>Welcome to Katik</h2>
+            <div>
+                <p>Hai sobat, selamat datang di katik :]</p>
+                <p>Web ini digunakan untuk menghitung Keliling dan Luas Persegi</p>
+            </div>
+        </section>
+        <section class="calculate">
+            <h2>Mulai Menghitung</h2>
+            <div>
+                <label for="input-box">Masukkan panjang sisi persegi dalam sentimeter (cm):</label>
+                <input id="input-box" placeholder="sisi dalam sentimeter">
+                <button id="submit">Hitung</button>
+                <img src="assets/persegi.jpg" alt="">
+            </div>
+            <div id="result-box">
+                <div class="result" id="keliling">
+                    <h2>Keliling Persegi</h2>
+                    <p>K = 4 x s</p>
+                    <p class="s-input">K = 4 x s</p>
+                    <p class="answer">K = 4 x s</p>
+                    <p class="answer2">Keliling persegi adalah 100 cm</p>
+                </div>
+                <div class="result" id="luas">
+                    <h2>Luas Persegi</h2>
+                    <p>L = s x s</p>
+                    <p class="s-input">L = s x s</p>
+                    <p class="answer">L = s x s</p>
+                    <p class="answer2">Luas persegi adalah 100 cm<sup>2</sup></p>
+                </div>
+                <button id="reset">Reset</button>
+            </div>
+        </section>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+</html>
